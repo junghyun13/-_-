@@ -19,11 +19,8 @@ int check(int x, int y){
         int i;
         for( i = 0; i < 4; i++) {
             check(x + xx[i], y + yy[i]);}
-        return 1;
-        
-    }
-    return 0;   
-}
+        return 1; }
+    return 0;}
 
 
 int main()
